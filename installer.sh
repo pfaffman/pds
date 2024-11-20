@@ -119,7 +119,7 @@ function main {
   fi
 
   # Check if PDS is already installed.
-  if [[ -e "${PDS_DATADIR}/pds.sqlite" ]]; then
+  if [[ -e "${PDS_DATADIR}/account.sqlite" ]]; then
     echo
     echo "ERROR: pds is already configured in ${PDS_DATADIR}"
     echo
